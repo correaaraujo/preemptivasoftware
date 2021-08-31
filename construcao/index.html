@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+	<meta charset="utf-8">
+	<title>Preemptiva - Em Breve!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="assets/css/jquery-parallax.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!--[if IE 7]><link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css"><![endif]-->
+	<link href="assets/css/core.css" rel="stylesheet">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]><script src="../assets/js/html5shiv.js"></script><![endif]-->
+	<script type="text/javascript">
+		var countdownDate = '2016/01/30 23:45:00';
+		var animeTime = 400;
+		var openAtInit = true;
+		var initTimeout = 3000;
+		var initPanelToOpen = 'subscribe'; // can be subscribe, about or contact
+	</script>
+</head>
+
+<body>
+
+	<div class="parallax-container">
+		<div class="parallax-item parallax-size-cover" style="background-image: url('assets/gfx/parallax_22.png')"></div>
+		<div class="parallax-item parallax-repeat parallax-overlay"></div>
+	</div>
+
+	<div class="wrap">
+		<div class="slide subscribe" data-show="ssubscribe">
+			<div class="signwrap">
+				<div class="sign">
+					<div class="icon"><i class="icon-rocket"></i></div>
+					<div class="icondesc">Inscrever</div>
+				</div>
+			</div>
+
+			<section class="section ssubscribe">
+				<div class="container">
+					<div class="row closebtnwrap">
+						<div class="col-md-12">
+							<div class="closebtn"><i class="icon-off"></i></div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<div><img class="img-responsive" src="assets/gfx/logo.png"></div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6">
+							<h3>Estamos quase pronto para mostrar ao mundo nosso talento</h3>
+							<p>
+								Inscreva-se para recerber novidades sobre nosso trabalho.
+							</p>
+							<div class="clock">
+								<div class="point pdays">
+									<div class="pvalue">00</div>
+									<div class="ptext">dias</div>
+								</div>
+								<div class="point phours">
+									<div class="pvalue">00</div>
+									<div class="ptext">horas</div>
+								</div>
+								<div class="point pminutes">
+									<div class="pvalue">00</div>
+									<div class="ptext">minutos</div>
+								</div>
+								<div class="point pseconds">
+									<div class="pvalue">00</div>
+									<div class="ptext">segundos</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<h3>Cadastre seu email e receba notícias sobre a empresa e o lançamento do site.</h3>
+							<p>
+								Fique conectado.
+							</p>
+							<form role="form" id="subscribe_form" action="javascript:;" method="POST" accept-charset="utf-8">
+
+								<div class="alert alert-success smsgbox" style="display: none; margin: auto;">
+									<i class="icon-check-sign"></i>Obrigado
+								</div>
+
+								<div class="form-group shide">
+									<div class="input-group">
+										<input type="text" id="semail" class="form-control" placeholder="Digite seu email..." data-trigger="manual" data-placement="top">
+										<span class="input-group-btn">
+											<button class="btn btn-default btn_subscribe" type="button">Inscrever</button>
+										</span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="slide about" data-show="sabout">
+			<div class="signwrap">
+				<div class="sign">
+					<div class="icon"><i class="icon-info"></i></div>
+					<div class="icondesc">Sobre Nós</div>
+				</div>
+			</div>
+
+			<section class="section sabout">
+				<div class="container">
+					<div class="row closebtnwrap">
+						<div class="col-md-12">
+							<div class="closebtn"><i class="icon-off"></i></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="abouticon"><i class="icon-cofee icon-2x"></i></div>
+							<div class="abouttext">
+								<h3>SEO - Otimizações de Sites para o Google</h3>
+								Quer aparecer mais?, utilize nossos serviços para estar sempre no topo da lista de pesquisa do google e conquistar mais clientes.
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="abouticon"><i class="icon-cog icon-2x"></i></div>
+							<div class="abouttext">
+								<h3>Fábrica de Software</h3>
+								Precisa de um software sob medida, um aplicativo, conversão de software legado?, utilize nossos serviços.
+                                Desenvolvemos soluções robustas e ousadas, de acordo com suas necessidades.
+							</div>
+						</div>
+					</div>
+					<!--<div class="row" style="margin-top: 18px;">
+						<div class="col-md-6">
+							<div class="abouticon"><i class="icon-signal icon-2x"></i></div>
+							<div class="abouttext">
+								<h3>Turpis mollis</h3>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer oklagija top nec odio. Praesent libero. Sed cursus ante dapibus.
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="abouticon"><i class="icon-lightbulb icon-2x"></i></div>
+							<div class="abouttext">
+								<h3>Libero totem</h3>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer oklagija top nec odio. Praesent libero. Sed cursus ante dapibus.
+							</div>
+						</div>
+					</div>-->
+				</div>
+			</section>
+		</div>
+		<div class="slide contact" data-show="scontact">
+			<div class="signwrap">
+				<div class="sign">
+					<div class="icon"><i class="icon-question"></i></div>
+					<div class="icondesc">Nossos Contatos</div>
+				</div>
+			</div>
+			<section class="section scontact">
+				<div class="container">
+					<div class="row closebtnwrap">
+						<div class="col-md-12">
+							<div class="closebtn"><i class="icon-off"></i></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-7">
+							<h3>Formulário de Contato</h3>
+							<p>
+                                Estamos construindo um novo e lindo website.
+								<br />
+                                Enquanto isso, use este formulário para entrar em contato conosco.
+							</p>
+							<div class="alert alert-success msgbox" style="display: none;"></div>
+							<form id="contact_form" method="POST" action="javascript:void(null);">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="name">Nome</label>
+											<input name="name" id="name" class="form-control po" data-placement="top" data-trigger="manual" type="text" placeholder="Digite seu nome...">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="email">Email</label>
+											<input name="email" id="email" class="form-control po" data-placement="top" data-trigger="manual" type="text" placeholder="Digite seu email...">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="subject">Assunto</label>
+									<input name="subject" id="subject" class="form-control po" data-placement="top" data-trigger="manual" type="text" placeholder="Digite o assunto...">
+								</div>
+
+								<div class="form-group">
+									<label for="message">Mensagem</label>
+									<textarea name="message" id="message" class="form-control po" data-placement="top" data-trigger="manual" placeholder="Digite sua mensagem..." rows="5"></textarea>
+								</div>
+
+								<div class="progress progress-striped">
+									<div class="progress-bar progress-bar-success"></div>
+								</div>
+
+								<div class="controls" style="text-align: right;">
+									<button type="submit" data-trigger="manual" data-placement="left" class="btn btn-primary btn-sm btn_send">Enviar Mensagem</button>
+									<button type="reset" class="btn btn-sm">Resetar Formulário</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-5">
+							<h3>Uma ou duas palavras.</h3>
+							<p>
+								Aqui, todos os comentários, críticas ou sugestões são bem vindas.
+                                </br>
+                                Fique a vontade para entrar em contato.
+							</p>
+							<h3>Onde nós estamos?</h3>
+							<address class="infoaddress">
+								<div class="addressline">
+									<div class="dicon"><i class="icon-globe"></i></div>
+									<div class="dtext">Preemptiva Software</div>
+								</div>
+								<div class="addressline">
+									<div class="dicon"><i class="icon-home"></i></div>
+									<div class="dtext">
+										Est. Professor Daltro Santo, 445 - Bl 9 - Ap 406
+									</div>
+								</div>
+								<div class="addressline">
+									<div class="dicon"><i class="icon-map-marker"></i></div>
+									<div class="dtext">
+										Campo Grande, Rio de Janeiro - RJ
+									</div>
+								</div>
+								<div class="addressline">
+									<div class="dicon"><i class="icon-phone"></i></div>
+									<div class="dtext">
+										Tel: (21) 3518-4631
+									</div>
+								</div>
+								<div class="addressline">
+									<div class="dicon"><i class="icon-envelope-alt"></i></div>
+									<div class="dtext">
+										<a href="mailto:contato@preemptivasoftware.com">contato@preemptivasoftware.com.br</a>
+									</div>
+								</div>
+							</address>
+							<div class="community">
+								<a href="https://www.facebook.com/preemptiva"><i class="icon-facebook"></i></a>
+								<a href="https://twitter.com/preemptiva"><i class="icon-twitter"></i></a>
+								<a href="https://www.linkedin.com/company/preemptiva-software"><i class="icon-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	</div>
+
+	<script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.parallax.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.countdown.js" type="text/javascript"></script>
+	<script src="assets/js/core.js" type="text/javascript"></script>
+
+	<!--<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-545557-25', 'zeljic.com');
+	  ga('send', 'pageview');
+	</script>-->
+
+</body>
+</html>
